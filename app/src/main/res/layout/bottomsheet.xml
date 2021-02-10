@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/back">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Developed By RvInfosystem"
+    android:textSize="24dp"
+    android:textColor="#fff"
+    android:gravity="center"
+    android:layout_margin="5dp"
+    android:textStyle="bold"
+    ></TextView>
+<LinearLayout
+    android:id="@+id/phone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+        <ImageView
+
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="left"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/phone"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Call Us"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:textSize="22dp"
+            android:gravity="center"></TextView>
+</LinearLayout>
+        <LinearLayout
+            android:id="@+id/whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:orientation="horizontal">
+        <ImageView
+
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="left"
+            android:src="@drawable/whatsappicon"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Whatsapp Us"
+
+                    android:layout_margin="5dp"
+                    android:textColor="#fff"
+                    android:textSize="22dp"
+                    android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+                <ImageView
+
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:gravity="left"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/email"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="left"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Email Us"
+                    android:layout_margin="5dp"
+                    android:textColor="#fff"
+                    android:textSize="22dp"
+                    android:gravity="center"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+                <ImageView
+
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:gravity="left"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/link"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="left"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Join Me On Linkedln"
+                    android:layout_margin="5dp"
+                    android:textColor="#fff"
+                    android:textSize="22dp"
+                    android:gravity="center"></TextView>
+        </LinearLayout>
+
+</LinearLayout>

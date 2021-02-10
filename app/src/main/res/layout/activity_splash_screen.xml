@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".SplashScreen"
+    android:background="@drawable/splash">
+<!--<ImageView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="fill_parent"-->
+<!--    android:src="@drawable/splash"-->
+<!--    ></ImageView>-->
+    <TextView
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click On This Link to Update Newer Version Of App"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:textSize="22dp"
+        android:background="@drawable/btn1"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        ></TextView>
+
+
+
+
+
+
+
+</LinearLayout>
